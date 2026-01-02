@@ -5,10 +5,15 @@
     display: flex;
     justify-content: space-around;
     margin-top: 56px;
+    gap: 10px;
+    flex-wrap: wrap
+    
 }
 .wrapper{
     padding: 10px 20px;
     border: 1px solid red;
+    
+    min-width:none;
 }
 .wrapper__p-center{
     text-align: center;
